@@ -1,0 +1,12 @@
+.tabs{width:100%;display:inline-block}
+.tab-links:after{display:block;clear:both;content:''}
+.tab-links li{margin:0 5px;float:left;list-style:none}
+.tab-links a{padding:5px 5px;display:inline-block;background:#34373b;font-size:13px;font-weight:600;color:#fff;transition:all linear 0.15s}
+.tab-links a:hover{background:#00be98;text-decoration:none}
+li.active a,li.active a:hover{background:#00be98;color:#fff}
+.tab-content{padding:10px;border:1px solid #c4c4c4; border-top-color: #00be98 ; border-top-width: 3px; padding: 10px;background:#fff;border-top:3px solid #00be98;}
+.tab{display:none}
+.tab.active{display:block}
+li.active {margin:0;}
+.widget .post-body ul {margin:0;padding:0;}
+.widget .post-body li {margin:0 3px 0 0;}
